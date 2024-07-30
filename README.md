@@ -13,6 +13,11 @@ El Sistema de Campeonato es una aplicación diseñada para gestionar campeonatos
 - **Marcación de Resultados**: Registrar y actualizar los resultados de los partidos, incluyendo la posibilidad de gestionar penales en caso de empate.
 - **Interfaz de Usuario**: Una interfaz de consola que permite a los usuarios interactuar con el sistema, mostrar estadísticas y gestionar los datos.
 
+## Diagrama de clases
+
+![Campeonato Fut](https://github.com/user-attachments/assets/20fcd206-ccc1-4617-9237-3a9c3e919f0e)
+
+
 ## Requisitos
 
 - Java Development Kit (JDK) 11 o superior
