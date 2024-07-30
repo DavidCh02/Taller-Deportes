@@ -28,5 +28,4 @@ El Sistema de Campeonato es una aplicación diseñada para gestionar campeonatos
 1. **Clonar el Repositorio**:
 
    ```bash
-   git clone https://github.com/tu-usuario/sistema-campeonato.git
-   cd sistema-campeonato
+   https://github.com/DavidCh02/Taller-Deportes.git
