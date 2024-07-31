@@ -13,9 +13,10 @@ Este proyecto es un sistema de campeonatos que permite crear campeonatos, regist
 
 ## Digrama de clases actualizado y mejorado
 
-    ![Campeonato Mejorado](https://github.com/user-attachments/assets/21956f47-8bad-4496-a4d5-87304fb385c2)
+![Campeonato Mejorado](https://github.com/user-attachments/assets/f62befde-cee8-4149-8665-b12c5dee1726)
 
-## Cambios Realizados
+
+## Cambios Realizados a diferencia de la primera version 
 Se agrego una tabla de posciones que se mostrara en "Estadisticas" ademas de cambiar la clase "Penales" por un metodo en "Partido" y ademas de agregar algunas validaciones 
 ## Funcionalidades
 
