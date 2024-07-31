@@ -1,31 +1,68 @@
-# Sistema de Campeonato
+# Sistema de Campeonatos
 
-## Descripción
+Este proyecto es un sistema de campeonatos que permite crear campeonatos, registrar equipos, iniciar partidos y mostrar estadísticas. Está desarrollado en Java y utiliza una interfaz de consola para la interacción con el usuario. A sido mejorado a la primera version que falatab de implementar siertas funciones.
 
-El Sistema de Campeonato es una aplicación diseñada para gestionar campeonatos deportivos. Permite la creación y administración de campeonatos, equipos, jugadores y partidos. El sistema soporta la planificación de partidos, el registro de resultados y la administración de penales en caso de empates.
+## Características
 
+- **Crear Campeonato**: Permite al usuario crear un nuevo campeonato ingresando el ID, nombre, fecha de inicio, fecha de fin y sistema del campeonato.
+- **Eliminar Campeonato**: Permite al usuario eliminar un campeonato existente.
+- **Registrar Equipo en Campeonato**: Permite al usuario registrar un nuevo equipo en un campeonato existente ingresando el nombre del equipo.
+- **Iniciar Partido**: Permite al usuario iniciar un partido entre dos equipos seleccionados de un campeonato, ingresando la fecha, hora y los goles de cada equipo. Si el partido termina en empate, se ingresan los goles de penales.
+- **Mostrar Estadísticas**: Permite al usuario ver las estadísticas del campeonato, incluyendo la tabla de posiciones.
+
+
+## Digrama de clases actualizado y mejorado
+
+![Campeonato Mejorado](https://github.com/user-attachments/assets/f62befde-cee8-4149-8665-b12c5dee1726)
+
+
+## Cambios Realizados a diferencia de la primera version 
+Se agrego una tabla de posciones que se mostrara en "Estadisticas" ademas de cambiar la clase "Penales" por un metodo en "Partido" y ademas de agregar algunas validaciones 
 ## Funcionalidades
 
-- **Gestión de Campeonatos**: Crear y administrar campeonatos deportivos, especificando nombre, fechas y sistema de competición.
-- **Registro de Equipos**: Añadir y gestionar equipos participantes en los campeonatos.
-- **Registro de Jugadores**: Registrar jugadores en los equipos, con la capacidad de anotar goles.
-- **Planificación de Partidos**: Crear partidos y asignar equipos locales y visitantes.
-- **Marcación de Resultados**: Registrar y actualizar los resultados de los partidos, incluyendo la posibilidad de gestionar penales en caso de empate.
-- **Interfaz de Usuario**: Una interfaz de consola que permite a los usuarios interactuar con el sistema, mostrar estadísticas y gestionar los datos.
+1. **Menú Principal**: Muestra un menú con las opciones disponibles:
+    - Crear Campeonato
+    - Eliminar Campeonato
+    - Registrar Equipo en Campeonato
+    - Iniciar Partido
+    - Mostrar Estadísticas
+    - Salir
 
-## Diagrama de clases
+2. **Crear Campeonato**:
+    - Solicita al usuario ingresar el ID, nombre, fecha de inicio, fecha de fin y sistema del campeonato.
+    - Crea un nuevo campeonato con los datos ingresados.
 
-![Campeonato Fut](https://github.com/user-attachments/assets/20fcd206-ccc1-4617-9237-3a9c3e919f0e)
+3. **Eliminar Campeonato**:
+    - Permite al usuario eliminar un campeonato existente (implementación pendiente).
 
+4. **Registrar Equipo en Campeonato**:
+    - Solicita al usuario ingresar el nombre del equipo.
+    - Registra el equipo en el campeonato seleccionado.
+
+5. **Iniciar Partido**:
+    - Solicita al usuario ingresar el ID del partido.
+    - Permite al usuario seleccionar el campeonato, equipo local y equipo visitante.
+    - Solicita la fecha y hora del partido.
+    - Solicita los goles del equipo local y visitante.
+    - Si el partido termina en empate, solicita los goles de penales.
+    - Registra el resultado del partido y lo agrega al campeonato.
+
+6. **Mostrar Estadísticas**:
+    - Muestra la tabla de posiciones del campeonato seleccionado.
 
 ## Requisitos
 
-- Java Development Kit (JDK) 11 o superior
-- IDE compatible con Java (por ejemplo, IntelliJ IDEA o Eclipse)
+- Java 8 o superior
+- IDE recomendado: IntelliJ IDEA 2024.1
 
-## Instalación
+## Ejecución
 
-1. **Clonar el Repositorio**:
+Para ejecutar el proyecto, compile todas las clases y ejecute la clase `Main`:
 
-   ```bash
-   https://github.com/DavidCh02/Taller-Deportes.git
+```java
+public class Main {
+    public static void main(String[] args) {
+        InterfazConsola interfaz = new InterfazConsola();
+        interfaz.mostrarMenuPrincipal();
+    }
+}
