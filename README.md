@@ -66,3 +66,7 @@ public class Main {
         interfaz.mostrarMenuPrincipal();
     }
 }
+
+## Diagrama anterior
+
+![Campeonato Mejorado](https://github.com/user-attachments/assets/1d01d6fe-50dc-4a23-af83-3979431e264a)
