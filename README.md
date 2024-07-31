@@ -50,6 +50,12 @@ Se agrego una tabla de posciones que se mostrara en "Estadisticas" ademas de cam
 6. **Mostrar Estadísticas**:
     - Muestra la tabla de posiciones del campeonato seleccionado.
 
+
+  ## Diagrama anterior
+
+![Campeonato Mejorado](https://github.com/user-attachments/assets/1d01d6fe-50dc-4a23-af83-3979431e264a)
+
+
 ## Requisitos
 
 - Java 8 o superior
@@ -58,7 +64,6 @@ Se agrego una tabla de posciones que se mostrara en "Estadisticas" ademas de cam
 ## Ejecución
 
 Para ejecutar el proyecto, compile todas las clases y ejecute la clase `Main`:
-
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -67,6 +72,3 @@ public class Main {
     }
 }
 
-## Diagrama anterior
-
-![Campeonato Mejorado](https://github.com/user-attachments/assets/1d01d6fe-50dc-4a23-af83-3979431e264a)
