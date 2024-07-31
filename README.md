@@ -1,4 +1,3 @@
-<<<<<<< develop
 # Sistema de Campeonatos
 
 Este proyecto es un sistema de campeonatos que permite crear campeonatos, registrar equipos, iniciar partidos y mostrar estadísticas. Está desarrollado en Java y utiliza una interfaz de consola para la interacción con el usuario. A sido mejorado a la primera version que falatab de implementar siertas funciones.
