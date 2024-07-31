@@ -53,7 +53,7 @@ Se agrego una tabla de posciones que se mostrara en "Estadisticas" ademas de cam
 
   ## Diagrama anterior
 
-![Campeonato Mejorado](https://github.com/user-attachments/assets/1d01d6fe-50dc-4a23-af83-3979431e264a)
+![Campeonato Fut](https://github.com/user-attachments/assets/22a35b03-e337-4026-ace3-6d38b735ff1e)
 
 
 ## Requisitos
