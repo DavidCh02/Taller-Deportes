@@ -1,6 +1,6 @@
 # Sistema de Campeonatos
 
-Este proyecto es un sistema de campeonatos que permite crear campeonatos, registrar equipos, iniciar partidos y mostrar estadísticas. Está desarrollado en Java y utiliza una interfaz de consola para la interacción con el usuario.
+Este proyecto es un sistema de campeonatos que permite crear campeonatos, registrar equipos, iniciar partidos y mostrar estadísticas. Está desarrollado en Java y utiliza una interfaz de consola para la interacción con el usuario. A sido mejorado a la primera version que falatab de implementar siertas funciones.
 
 ## Características
 
@@ -10,6 +10,13 @@ Este proyecto es un sistema de campeonatos que permite crear campeonatos, regist
 - **Iniciar Partido**: Permite al usuario iniciar un partido entre dos equipos seleccionados de un campeonato, ingresando la fecha, hora y los goles de cada equipo. Si el partido termina en empate, se ingresan los goles de penales.
 - **Mostrar Estadísticas**: Permite al usuario ver las estadísticas del campeonato, incluyendo la tabla de posiciones.
 
+
+## Digrama de clases actualizado y mejorado
+
+    ![Campeonato Mejorado](https://github.com/user-attachments/assets/21956f47-8bad-4496-a4d5-87304fb385c2)
+
+## Cambios Realizados
+Se agrego una tabla de posciones que se mostrara en "Estadisticas" ademas de cambiar la clase "Penales" por un metodo en "Partido" y ademas de agregar algunas validaciones 
 ## Funcionalidades
 
 1. **Menú Principal**: Muestra un menú con las opciones disponibles:
